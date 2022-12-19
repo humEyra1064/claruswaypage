@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   /* background-color: #5f1771; */
+   background-image: linear-gradient(43deg, #5f1771 0%, #690d63 46%, #FFCC70 100%);
+   /* background-repeat: no-repeat; */
+   font-family: 'Domine', serif;
+   color: white;
+  
+   
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
+}
+
+h2{
+    color: #690d63;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+    padding: 3%;
+    margin: 30px auto;
+    gap: 10px;
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+   
+}
+.sağ1{
+    /* border: 2px solid blue; */
+}
+.btn1{
+    float: right;
+    margin-top: 60px;
+    
+}
+button{
+    background-color: rgba(151, 9, 9, 0.883);
+    color: yellow;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: ;
+}
+
+
