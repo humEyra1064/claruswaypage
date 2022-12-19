@@ -67,7 +67,8 @@ button{
 }
 button:hover{
     cursor: pointer;
-    box-shadow: ;
+    box-shadow: 7px 7px 10px gray ;
+    font-size: 18px;
 }
 
 
